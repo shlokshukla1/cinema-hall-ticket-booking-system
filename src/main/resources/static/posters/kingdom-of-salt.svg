@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Caravan crossing a white desert towards a distant city">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3b1408"/><stop offset=".55" stop-color="#c2481a"/><stop offset="1" stop-color="#f7b13f"/></linearGradient>
+    <linearGradient id="salt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff1d6"/><stop offset="1" stop-color="#c9a77c"/></linearGradient>
+    <radialGradient id="sun"><stop offset="0" stop-color="#fff6c8"/><stop offset=".6" stop-color="#ffd257"/><stop offset="1" stop-color="#ffd257" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#sky)"/>
+  <circle cx="200" cy="270" r="150" fill="url(#sun)"/>
+  <circle cx="200" cy="270" r="72" fill="#fff0b0"/>
+  <g fill="#4a1a0c">
+    <path d="M118 345V300h12v-16h10v16h14v-30h12v-18l8-14 8 14v18h12v30h14v-44h10l6-22 6 22h10v44h14v-24h10v-16h12v16h12v24h14v45z"/>
+  </g>
+  <path d="M0 350c70-22 130-18 200-6s130 10 200-8v264H0z" fill="url(#salt)"/>
+  <path d="M0 430c90-30 170-22 240-4s110 14 160-2v176H0z" fill="#e8cda0"/>
+  <path d="M0 505c110-26 190-18 270-4s90 8 130 0v99H0z" fill="#b98c5c"/>
+  <g fill="#2a0f07">
+    <g id="camel"><path d="M70 402c6-13 14-14 20-4 4-9 12-9 16 0l12 1c3-7 3-12 9-14h7l-2 7-6 2c-1 8-4 15-12 18l-1 22h-4l-2-19h-22l-3 19h-4l-2-21c-5-2-8-6-6-11z"/><path d="M92 380l4-14 5 14z"/></g>
+    <use href="#camel" x="85" y="-8" transform="scale(.92)"/>
+    <use href="#camel" x="190" y="-14" transform="scale(.85)"/>
+  </g>
+  <path d="M0 0h400v130C300 90 100 90 0 130z" fill="#1d0a05" opacity=".45"/>
+</svg>

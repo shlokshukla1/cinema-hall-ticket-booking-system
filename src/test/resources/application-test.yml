@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    url: jdbc:h2:mem:cinema_test;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;LOCK_TIMEOUT=10000;DB_CLOSE_DELAY=-1
+    username: sa
+    password: ""
+app:
+  posters:
+    dir: target/test-posters
+  jwt:
+    secret: test-only-signing-key-not-used-anywhere-else
+  holds:
+    ttl-seconds: 300
+    # Tests call the sweep directly, at the moment they choose.
+    sweep-enabled: false
+  seed:
+    enabled: false

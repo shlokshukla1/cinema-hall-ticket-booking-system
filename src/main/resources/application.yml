@@ -1,0 +1,82 @@
+server:
+  port: ${PORT:8080}
+  error:
+    include-message: never
+    include-stacktrace: never
+
+spring:
+  application:
+    name: cinema-hall-booking
+  datasource:
+    # Zero-install default: a local H2 file in PostgreSQL mode. Use the "postgres" profile for a server database.
+    url: ${DATABASE_URL:jdbc:h2:file:./data/cinema;MODE=PostgreSQL;DATABASE_TO_LOWER=TRUE;DEFAULT_NULL_ORDERING=HIGH;LOCK_TIMEOUT=10000}
+    username: ${DATABASE_USERNAME:sa}
+    password: ${DATABASE_PASSWORD:}
+    hikari:
+      maximum-pool-size: 20
+  jpa:
+    open-in-view: false
+    hibernate:
+      ddl-auto: validate   # Flyway owns the schema; Hibernate only checks that entities agree with it.
+    properties:
+      hibernate:
+        jdbc:
+          time_zone: UTC
+        default_batch_fetch_size: 50
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+  h2:
+    console:
+      enabled: false
+  web:
+    resources:
+      add-mappings: true
+  servlet:
+    multipart:
+      max-file-size: 4MB
+      max-request-size: 5MB
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health
+
+springdoc:
+  swagger-ui:
+    path: /swagger-ui.html
+    operations-sorter: alpha
+    tags-sorter: alpha
+  api-docs:
+    path: /v3/api-docs
+
+app:
+  jwt:
+    # Blank = generate a random key at start-up (tokens stop working after a restart).
+    # Set APP_JWT_SECRET (at least 32 characters) in any shared deployment.
+    secret: ${APP_JWT_SECRET:}
+    ttl-minutes: 120
+  holds:
+    ttl-seconds: ${APP_HOLD_TTL_SECONDS:300}
+    max-seats: 10
+    sweep-enabled: true
+    sweep-interval-ms: 15000
+  shows:
+    cleaning-buffer-minutes: 15
+  posters:
+    # Admin-uploaded images. The default sits inside data/, which git ignores.
+    dir: ${APP_POSTERS_DIR:./data/posters}
+    max-bytes: 3145728
+  auth:
+    max-failed-logins: 5
+    lockout-minutes: 15
+  reporting:
+    timezone: Asia/Kolkata
+  seed:
+    # Creates dummy demo accounts, a catalogue and upcoming shows when the database has no users.
+    enabled: ${APP_SEED_ENABLED:true}
+
+logging:
+  level:
+    org.hibernate.engine.jdbc.spi.SqlExceptionHelper: "OFF"

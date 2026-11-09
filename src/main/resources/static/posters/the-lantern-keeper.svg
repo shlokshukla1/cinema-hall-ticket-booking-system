@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A lighthouse sending a beam across a dark sea at night">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#050b24"/><stop offset=".7" stop-color="#17407c"/><stop offset="1" stop-color="#3f85b8"/></linearGradient>
+    <linearGradient id="beam" x1="1" y1="0" x2="0" y2="0"><stop offset="0" stop-color="#fff5bd" stop-opacity=".95"/><stop offset="1" stop-color="#fff5bd" stop-opacity="0"/></linearGradient>
+    <linearGradient id="tower" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#f1ede2"/><stop offset="1" stop-color="#8e9bb0"/></linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#sky)"/>
+  <g fill="#fff"><circle cx="50" cy="50" r="2"/><circle cx="120" cy="96" r="1.5"/><circle cx="210" cy="40" r="2"/><circle cx="350" cy="78" r="2.5"/><circle cx="310" cy="30" r="1.5"/><circle cx="30" cy="290" r="1.5"/><circle cx="96" cy="30" r="1.5"/></g>
+  <circle cx="72" cy="84" r="26" fill="#f4eecb"/><circle cx="82" cy="78" r="23" fill="#0a1436"/>
+  <path d="M272 176L0 90v176z" fill="url(#beam)"/>
+  <path d="M250 196h44l18 244h-80z" fill="url(#tower)"/>
+  <path d="M244 256h56l5 52h-66zM234 372h76l5 56h-86z" fill="#c53b3b"/>
+  <rect x="240" y="186" width="64" height="12" fill="#26314d"/>
+  <rect x="252" y="146" width="40" height="40" fill="#ffefa1" stroke="#26314d" stroke-width="5"/>
+  <path d="M246 146l26-30 26 30z" fill="#c53b3b" stroke="#26314d" stroke-width="4"/>
+  <path d="M160 600c10-90 40-150 90-168h100c30 40 50 110 50 168z" fill="#121a2c"/>
+  <path d="M0 470c40-12 70 8 110 0s60-10 80 0v130H0z" fill="#0e2b52"/>
+  <path d="M0 530c50-14 90 8 140 0s70-8 110 4 100 4 150-4v70H0z" fill="#081a38"/>
+  <path d="M40 470l34-8v-44c16 12 28 30 32 50l28-2-14 22H56z" fill="#050d1d"/>
+</svg>

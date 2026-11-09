@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A small repair robot holding a houseplant in a space station window">
+  <defs>
+    <radialGradient id="space" cx=".5" cy=".3" r=".9"><stop offset="0" stop-color="#20467a"/><stop offset=".6" stop-color="#101a3e"/><stop offset="1" stop-color="#060816"/></radialGradient>
+    <linearGradient id="planet" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#65e0c4"/><stop offset="1" stop-color="#14627f"/></linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#space)"/>
+  <g fill="#fff"><circle cx="40" cy="60" r="2"/><circle cx="110" cy="130" r="1.5"/><circle cx="180" cy="46" r="2.5"/><circle cx="260" cy="110" r="1.5"/><circle cx="350" cy="50" r="2"/><circle cx="60" cy="210" r="1.5"/><circle cx="330" cy="200" r="2.5"/><circle cx="210" cy="176" r="1.5"/><circle cx="24" cy="330" r="2"/><circle cx="376" cy="310" r="1.5"/></g>
+  <circle cx="310" cy="140" r="84" fill="url(#planet)"/>
+  <ellipse cx="310" cy="140" rx="130" ry="20" fill="none" stroke="#a7f3df" stroke-width="5" opacity=".6" transform="rotate(-18 310 140)"/>
+  <path d="M0 455h400v145H0z" fill="#1b2747"/>
+  <circle cx="200" cy="290" r="176" fill="none" stroke="#3d5288" stroke-width="16"/>
+  <rect y="450" width="400" height="16" fill="#51699f"/>
+  <g>
+    <rect x="124" y="330" width="110" height="88" rx="18" fill="#f2f6ff" stroke="#28365f" stroke-width="5"/>
+    <rect x="140" y="346" width="78" height="48" rx="12" fill="#0a1433"/>
+    <circle cx="162" cy="370" r="9" fill="#7df9d9"/><circle cx="198" cy="370" r="9" fill="#7df9d9"/>
+    <rect x="150" y="418" width="58" height="32" rx="6" fill="#c9d4ef" stroke="#28365f" stroke-width="5"/>
+    <path d="M234 392c20-2 30 2 44 16" fill="none" stroke="#28365f" stroke-width="9" stroke-linecap="round"/>
+  </g>
+  <g>
+    <path d="M268 410h52l-8 42h-36z" fill="#d9663a" stroke="#6d2b12" stroke-width="4"/>
+    <path d="M294 410c0-34-4-52-2-76" fill="none" stroke="#2e8b57" stroke-width="5"/>
+    <path d="M292 372c-30-2-40-20-42-32 22-2 40 8 42 32zM293 352c26-4 38-20 40-34-22 0-38 12-40 34zM292 334c-10-12-12-26-6-40 12 10 14 26 6 40z" fill="#4fd17f"/>
+  </g>
+</svg>

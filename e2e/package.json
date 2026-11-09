@@ -1,0 +1,14 @@
+{
+  "name": "cinema-hall-e2e",
+  "private": true,
+  "type": "module",
+  "description": "Browser journeys and accessibility scans. Drives an installed Microsoft Edge against a running app with a fresh demo database.",
+  "scripts": {
+    "journey": "node journey.mjs",
+    "expiry": "node expiry.mjs"
+  },
+  "dependencies": {
+    "axe-core": "4.10.2",
+    "playwright-core": "1.49.1"
+  }
+}

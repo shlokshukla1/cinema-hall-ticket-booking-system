@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="Paper kites flying over an old town's rooftops at sunset">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#7c2d8c"/><stop offset=".5" stop-color="#ef6a4c"/><stop offset="1" stop-color="#ffd166"/></linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#sky)"/>
+  <circle cx="200" cy="430" r="90" fill="#fff0a8" opacity=".85"/>
+  <g stroke="#3b1742" stroke-width="1.5" fill="none" opacity=".8">
+    <path d="M110 170C140 300 170 380 150 500M290 110C270 260 250 360 270 490M205 260c-10 90 0 170 -10 250M60 300c20 80 30 130 20 200M345 270c-20 70-20 140-30 220"/>
+  </g>
+  <g>
+    <path d="M110 90l50 72-50 72-50-72z" fill="#ffd23f"/><path d="M110 90v144M60 162h100" stroke="#a23b00" stroke-width="3"/>
+    <path d="M290 40l44 64-44 64-44-64z" fill="#2ec4b6"/><path d="M290 40v128M246 104h88" stroke="#0b6b63" stroke-width="3"/>
+    <path d="M205 190l36 52-36 52-36-52z" fill="#ff3d81"/><path d="M205 190v104M169 242h72" stroke="#8c1046" stroke-width="3"/>
+    <path d="M60 262l24 34-24 34-24-34z" fill="#fff"/><path d="M345 228l28 40-28 40-28-40z" fill="#5b8cff"/>
+    <path d="M110 234l-8 18 16 6-12 16M290 168l10 16-14 8 10 14M205 294l-9 14 14 6-10 14" fill="none" stroke="#fff" stroke-width="3"/>
+  </g>
+  <g fill="#3b1742">
+    <path d="M0 500l40-34 40 34v100H0zM70 520h70l14-30h60l18 30h60v80H70zM270 490l40-40 40 40 50-14v124H270z"/>
+  </g>
+  <g fill="#ffd166"><rect x="24" y="520" width="16" height="22"/><rect x="104" y="540" width="14" height="20"/><rect x="176" y="514" width="16" height="22"/><rect x="302" y="512" width="16" height="22"/><rect x="360" y="526" width="14" height="20"/></g>
+</svg>

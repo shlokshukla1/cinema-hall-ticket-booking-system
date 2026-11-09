@@ -1,0 +1,6 @@
+# Activate with SPRING_PROFILES_ACTIVE=postgres
+spring:
+  datasource:
+    url: ${DATABASE_URL:jdbc:postgresql://localhost:5432/cinema}
+    username: ${DATABASE_USERNAME:cinema}
+    password: ${DATABASE_PASSWORD}

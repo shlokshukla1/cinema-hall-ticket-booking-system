@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A lone engineer before a huge dam in a lightning storm">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#060f1c"/><stop offset=".6" stop-color="#14445a"/><stop offset="1" stop-color="#2f8d94"/></linearGradient>
+    <linearGradient id="dam" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#46606b"/><stop offset="1" stop-color="#1b2c35"/></linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d8fbff"/><stop offset="1" stop-color="#3bb3b8" stop-opacity=".2"/></linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#sky)"/>
+  <g fill="#0b1a28"><ellipse cx="90" cy="80" rx="150" ry="66"/><ellipse cx="300" cy="62" rx="170" ry="70"/><ellipse cx="200" cy="118" rx="170" ry="48"/></g>
+  <path d="M250 110l-34 92h28l-42 104 84-132h-32l36-64z" fill="#fff6b3"/>
+  <path d="M0 300h400v180H0z" fill="url(#dam)"/>
+  <g fill="#132029"><rect y="296" width="400" height="14"/><rect x="40" y="310" width="14" height="170"/><rect x="133" y="310" width="14" height="170"/><rect x="253" y="310" width="14" height="170"/><rect x="346" y="310" width="14" height="170"/></g>
+  <g fill="url(#water)"><rect x="66" y="360" width="56" height="150"/><rect x="158" y="360" width="84" height="150"/><rect x="278" y="360" width="56" height="150"/></g>
+  <path d="M0 480c60-16 100 10 160-2s100-16 150-2 60 8 90 0v124H0z" fill="#0d2b38"/>
+  <path d="M0 515c70-14 130 8 200-2s130-10 200 2v85H0z" fill="#07171f"/>
+  <path d="M196 512l-3-40c-2-5 0-10 5-11-3-6 1-13 7-13s10 7 7 13c5 1 7 6 5 11l-3 40h-6l-2-30h-4l-2 30z" fill="#020a10"/>
+  <g stroke="#cbeff5" stroke-width="1.5" opacity=".55">
+    <path d="M30 140l-14 46M90 190l-14 46M150 150l-14 46M205 225l-14 46M270 165l-14 46M340 205l-14 46M385 130l-14 46M60 330l-14 46M180 390l-14 46M310 345l-14 46M120 500l-14 46M260 495l-14 46M370 470l-14 46"/>
+  </g>
+</svg>

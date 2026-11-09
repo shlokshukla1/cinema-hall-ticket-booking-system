@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A home-made robot on a school desk in front of a chalkboard">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6a93b"/><stop offset="1" stop-color="#d85b2a"/></linearGradient>
+    <linearGradient id="robot" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#e8f4f7"/><stop offset="1" stop-color="#7ea6b4"/></linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#wall)"/>
+  <rect x="34" y="46" width="332" height="196" rx="6" fill="#5b3213"/>
+  <rect x="46" y="58" width="308" height="172" fill="#1d4a3d"/>
+  <g fill="none" stroke="#e9f5e6" stroke-width="3" stroke-linecap="round" opacity=".85">
+    <circle cx="110" cy="118" r="30"/><path d="M110 88v60M80 118h60M280 90l44 60h-88zM172 190c20-30 40 30 60 0s30 16 44 0"/>
+  </g>
+  <g fill="#ffe08a"><path d="M70 196l4 9 10 1-7 7 2 10-9-5-9 5 2-10-7-7 10-1z"/></g>
+  <rect y="440" width="400" height="160" fill="#7a431a"/>
+  <rect y="440" width="400" height="18" fill="#a4632a"/>
+  <rect x="44" y="458" width="16" height="142" fill="#5b3213"/><rect x="340" y="458" width="16" height="142" fill="#5b3213"/>
+  <g>
+    <rect x="138" y="274" width="124" height="96" rx="20" fill="url(#robot)" stroke="#2c4752" stroke-width="5"/>
+    <rect x="198" y="248" width="5" height="26" fill="#2c4752"/><circle cx="200" cy="243" r="9" fill="#e23d4a"/>
+    <circle cx="172" cy="318" r="18" fill="#10242c"/><circle cx="228" cy="318" r="18" fill="#10242c"/>
+    <circle cx="176" cy="314" r="7" fill="#7ff0ff"/><circle cx="232" cy="314" r="7" fill="#7ff0ff"/>
+    <path d="M178 348q22 14 44 0" fill="none" stroke="#10242c" stroke-width="5" stroke-linecap="round"/>
+    <rect x="160" y="372" width="80" height="58" rx="10" fill="url(#robot)" stroke="#2c4752" stroke-width="5"/>
+    <circle cx="200" cy="400" r="11" fill="#ffcf4d" stroke="#2c4752" stroke-width="3"/>
+    <path d="M160 388l-40-26M240 388l42-32" stroke="#2c4752" stroke-width="10" stroke-linecap="round"/>
+    <circle cx="116" cy="358" r="11" fill="#e23d4a"/><circle cx="286" cy="352" r="11" fill="#e23d4a"/>
+    <rect x="166" y="430" width="24" height="12" fill="#2c4752"/><rect x="210" y="430" width="24" height="12" fill="#2c4752"/>
+  </g>
+  <g transform="rotate(-7 70 430)"><rect x="50" y="410" width="60" height="30" fill="#2f7fd1"/><rect x="50" y="400" width="60" height="12" fill="#f1e4c6"/></g>
+  <rect x="300" y="400" width="10" height="40" fill="#ffd54f" transform="rotate(14 305 420)"/>
+</svg>

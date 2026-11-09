@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" role="img" aria-label="A family restaurant glowing on a lantern-lit street at dusk">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2c0d44"/><stop offset=".7" stop-color="#a42d6f"/><stop offset="1" stop-color="#f57b52"/></linearGradient>
+    <radialGradient id="glow"><stop offset="0" stop-color="#ffe9a8"/><stop offset="1" stop-color="#ffb347" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#sky)"/>
+  <path d="M0 240l60-20v-60l60 30v70l50-16v366H0zM300 600V200l50-40 50 30v410z" fill="#26103a"/>
+  <path d="M120 600V280h170v320z" fill="#5c1d3f"/>
+  <path d="M104 290l32-54h138l32 54z" fill="#e8882a"/>
+  <g fill="#c9611a"><path d="M136 236l-8 54h24l6-54zM186 236l-3 54h24l-1-54zM234 236l5 54h24l-10-54z"/></g>
+  <rect x="136" y="310" width="138" height="104" fill="#ffd98a"/>
+  <path d="M205 310v104M136 362h138" stroke="#5c1d3f" stroke-width="6"/>
+  <g fill="#7a2a10"><circle cx="170" cy="352" r="16"/><path d="M152 414c0-30 8-44 18-44s18 14 18 44z"/></g>
+  <rect x="162" y="430" width="86" height="170" fill="#3a1228"/>
+  <circle cx="232" cy="515" r="5" fill="#ffd98a"/>
+  <g>
+    <path d="M0 96c120 70 280 70 400 0" fill="none" stroke="#14061f" stroke-width="3"/>
+    <g id="lamp"><circle cx="70" cy="146" r="38" fill="url(#glow)"/><ellipse cx="70" cy="146" rx="15" ry="19" fill="#ffb627"/><rect x="66" y="122" width="8" height="6" fill="#14061f"/></g>
+    <use href="#lamp" x="65" y="24"/><use href="#lamp" x="130" y="30"/><use href="#lamp" x="195" y="24"/><use href="#lamp" x="260"/>
+  </g>
+  <rect y="560" width="400" height="40" fill="#14061f"/>
+</svg>
